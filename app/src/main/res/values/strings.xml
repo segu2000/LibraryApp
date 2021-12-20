@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Library App</string>
+    <string-array name="usertype">
+        <item>select the category</item>
+        <item>Admin</item>
+        <item>User</item>
+    </string-array>
+</resources>

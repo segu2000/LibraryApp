@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UPDATE BOOK"
+            android:textSize="20dp"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:textAlignment="center"
+            android:gravity="center"
+            />
+        <EditText
+            android:id="@+id/dID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/edittext"
+            android:ems="10"
+            android:hint="ID "
+            android:inputType="number"
+            android:padding="10dp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/dtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/edittext"
+            android:ems="10"
+            android:hint="TITLE "
+            android:inputType="text"
+            android:padding="10dp"
+            android:textColor="@color/black" />
+        <EditText
+            android:id="@+id/dAuthor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/edittext"
+            android:ems="10"
+            android:hint="AUTHOR"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textColor="@color/black" />
+        <EditText
+            android:id="@+id/dUnits"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/edittext"
+            android:ems="10"
+            android:hint="NO.OF UNITS"
+            android:inputType="number"
+            android:padding="10dp"
+            android:textColor="@color/black" />
+
+
+
+        <Button
+            android:id="@+id/bupdate"
+            android:layout_width="300dp"
+            android:layout_height="59dp"
+            android:text="UPDATE"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginLeft="50dp"/>
+
+    </LinearLayout>
+</RelativeLayout>
