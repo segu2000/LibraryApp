@@ -30,8 +30,8 @@ The **Library Management System** is an Android application that provides an eff
 
 ### Prerequisites
 - **Android Studio** (for development and testing)
-- **Java/Kotlin** (for backend logic)
-- **Firebase or SQLite** (if using a database for book storage)
+- **Java** (for backend logic)
+- **Firebase** (if using a database for book storage)
 
 ### Steps to Run the Project
 1. **Clone the Repository**
